@@ -5,7 +5,7 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-7):");
+    System.out.println("Select an option (1-11):");
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
@@ -13,7 +13,11 @@ public class Index{
 	System.out.println("4. Shadowing");
     System.out.println("5. Overloading");
 	System.out.println("6. ReverseDigits");
-	System.out.println("7. Exit");
+	System.out.println("7. FirstArray");
+	System.out.println("8. SecondArray");
+	System.out.println("9. ThirdArray");
+	System.out.println("10. FourthArray");
+	System.out.println("11. Exit");
 
     System.out.println();
 
@@ -49,9 +53,29 @@ public class Index{
 	  case 6:
         System.out.println("ReverseDigits lab excercise");
         System.out.println();
+        Reverse.main(null);
+        break;
+	  case 7:
+        System.out.println("FirstArray lab excercise");
+        System.out.println();
         FirstArray.main(null);
         break;
-      case 7:
+	  case 8:
+        System.out.println("SecondArray lab excercise");
+        System.out.println();
+        SecondArray.main(null);
+        break;
+	  case 9:
+        System.out.println("ThirdArray lab excercise");
+        System.out.println();
+        ThirdArray.main(null);
+        break;
+	  case 10:
+        System.out.println("FourthArray lab excercise");
+        System.out.println();
+        FourthArray.main(null);
+        break;
+      case 11:
         System.out.println("Exiting....");
         break;
       default:
