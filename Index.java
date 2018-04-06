@@ -64,14 +64,14 @@ public class Index{
         SecondArray.main(null);
         break;
 	  case 8:
+        System.out.println("EnhancedFor");
+        System.out.println();
+        EnhancedFor.main(null);
+        break;
+	  case 9:
         System.out.println("Try and Catch");
         System.out.println();
         TryCatch.main(null);
-        break;
-	  case 9:
-        System.out.println("Enhanced For");
-        System.out.println();
-        EnhancedFor.main(null);
         break;
 	  case 10:
         System.out.println("Search Multi-Dimensional Array");
@@ -83,7 +83,7 @@ public class Index{
         System.out.println();
         Convert.main(null);
         break;
-	  case 11:
+	  case 12:
         System.out.println("Project Exercises 2");
         System.out.println();
         Search.main(null);

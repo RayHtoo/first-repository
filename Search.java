@@ -126,6 +126,8 @@ public class Search {
             System.out.println("No matches were found");
         }
         System.out.println("########################################");
+       	Index.main(null);
+
 
     }
 }

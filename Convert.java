@@ -26,6 +26,9 @@ public class Convert{
 		celcius = scan.nextInt();
 		fahrenheit = 9.0/5.0 * celcius + 32;
 		System.out.println(+(int)celcius+" Celcius is "+(int)fahrenheit+" Fahrenheit");
+
 		}
+		Index.main(null);
+
  	}
  }
